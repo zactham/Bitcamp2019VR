@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112D184D2261D275000DB9D0 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D184C2261D275000DB9D0 /* house.png */; };
+		112D184F2261D4AE000DB9D0 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D184E2261D4AE000DB9D0 /* bar.png */; };
+		11F4A989226192C00047AA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4A988226192C00047AA95 /* AppDelegate.swift */; };
+		11F4A98B226192C00047AA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4A98A226192C00047AA95 /* ViewController.swift */; };
+		11F4A98E226192C00047AA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A98C226192C00047AA95 /* Main.storyboard */; };
+		11F4A990226192C20047AA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A98F226192C20047AA95 /* Assets.xcassets */; };
+		11F4A993226192C20047AA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A991226192C20047AA95 /* LaunchScreen.storyboard */; };
+		11F4A99C22619DED0047AA95 /* HomeScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A99A22619DED0047AA95 /* HomeScreen.jpg */; };
+		11F4A9A32261A0B50047AA95 /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A99E2261A0B50047AA95 /* angry.png */; };
+		11F4A9A42261A0B50047AA95 /* sleepy.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A99F2261A0B50047AA95 /* sleepy.png */; };
+		11F4A9A52261A0B50047AA95 /* surprised.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9A02261A0B50047AA95 /* surprised.png */; };
+		11F4A9A62261A0B50047AA95 /* scare.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9A12261A0B50047AA95 /* scare.png */; };
+		11F4A9A72261A0B50047AA95 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9A22261A0B50047AA95 /* sad.png */; };
+		11F4A9A92261A26D0047AA95 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9A82261A26D0047AA95 /* happy.png */; };
+		11F4A9AE2261A3CB0047AA95 /* CHERL___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9AD2261A3CB0047AA95 /* CHERL___.TTF */; };
+		11F4A9B02261A4850047AA95 /* Bloomer DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9AF2261A4850047AA95 /* Bloomer DEMO.otf */; };
+		11F4A9B22261A9700047AA95 /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9B12261A9700047AA95 /* sunny.png */; };
+		11F4A9B72261AC810047AA95 /* AnxietyScreen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9B62261AC810047AA95 /* AnxietyScreen.jpeg */; };
+		11F4A9BA2261AE090047AA95 /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9B92261AE090047AA95 /* question.png */; };
+		11F4A9C02261B0F60047AA95 /* StatBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9BF2261B0F60047AA95 /* StatBackground.jpg */; };
+		11F4A9C22261B6B20047AA95 /* StatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4A9C12261B6B20047AA95 /* StatController.swift */; };
+		11F4A9C42261C8C10047AA95 /* export.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A9C32261C8C10047AA95 /* export.png */; };
+		9949630CC8D8F910952DDDF9 /* Pods_Bitcamp2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3522CE1F593B3BC130A30288 /* Pods_Bitcamp2019.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112D184C2261D275000DB9D0 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = house.png; path = ../../../../../Downloads/house.png; sourceTree = "<group>"; };
+		112D184E2261D4AE000DB9D0 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar.png; path = ../../../../../Downloads/bar.png; sourceTree = "<group>"; };
+		11F4A985226192C00047AA95 /* Bitcamp2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitcamp2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F4A988226192C00047AA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11F4A98A226192C00047AA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11F4A98D226192C00047AA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11F4A98F226192C20047AA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11F4A992226192C20047AA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11F4A994226192C20047AA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F4A99B22619DED0047AA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/HomeScreen.jpg; sourceTree = "<group>"; };
+		11F4A99E2261A0B50047AA95 /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = angry.png; path = ../../../../../Downloads/angry.png; sourceTree = "<group>"; };
+		11F4A99F2261A0B50047AA95 /* sleepy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sleepy.png; path = ../../../../../Downloads/sleepy.png; sourceTree = "<group>"; };
+		11F4A9A02261A0B50047AA95 /* surprised.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = surprised.png; path = ../../../../../Downloads/surprised.png; sourceTree = "<group>"; };
+		11F4A9A12261A0B50047AA95 /* scare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scare.png; path = ../../../../../Downloads/scare.png; sourceTree = "<group>"; };
+		11F4A9A22261A0B50047AA95 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sad.png; path = ../../../../../Downloads/sad.png; sourceTree = "<group>"; };
+		11F4A9A82261A26D0047AA95 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happy.png; path = ../../../../../Downloads/happy.png; sourceTree = "<group>"; };
+		11F4A9AD2261A3CB0047AA95 /* CHERL___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CHERL___.TTF"; path = "../../../../../Downloads/cheri/CHERL___.TTF"; sourceTree = "<group>"; };
+		11F4A9AF2261A4850047AA95 /* Bloomer DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bloomer DEMO.otf"; path = "../../../../../Downloads/bloomer/Bloomer DEMO.otf"; sourceTree = "<group>"; };
+		11F4A9B12261A9700047AA95 /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunny.png; path = ../../../../../Downloads/sunny.png; sourceTree = "<group>"; };
+		11F4A9B62261AC810047AA95 /* AnxietyScreen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AnxietyScreen.jpeg; path = ../../../../../Downloads/AnxietyScreen.jpeg; sourceTree = "<group>"; };
+		11F4A9B92261AE090047AA95 /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = question.png; path = ../../../../../Downloads/question.png; sourceTree = "<group>"; };
+		11F4A9BF2261B0F60047AA95 /* StatBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = StatBackground.jpg; path = ../../../../../Downloads/StatBackground.jpg; sourceTree = "<group>"; };
+		11F4A9C12261B6B20047AA95 /* StatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatController.swift; sourceTree = "<group>"; };
+		11F4A9C32261C8C10047AA95 /* export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = export.png; path = ../../../../../Downloads/export.png; sourceTree = "<group>"; };
+		2B210007B38AEB2BE1113E3E /* Pods-Bitcamp2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcamp2019.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bitcamp2019/Pods-Bitcamp2019.debug.xcconfig"; sourceTree = "<group>"; };
+		3522CE1F593B3BC130A30288 /* Pods_Bitcamp2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitcamp2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA82B0129B3DAFA11CA0790D /* Pods-Bitcamp2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcamp2019.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bitcamp2019/Pods-Bitcamp2019.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F4A982226192C00047AA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9949630CC8D8F910952DDDF9 /* Pods_Bitcamp2019.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F4A97C226192C00047AA95 = {
+			isa = PBXGroup;
+			children = (
+				11F4A987226192C00047AA95 /* Bitcamp2019 */,
+				11F4A986226192C00047AA95 /* Products */,
+				AB88188C50F2BAFA4BCFA9EA /* Pods */,
+				BCD9D74081D860B014644C88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11F4A986226192C00047AA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F4A985226192C00047AA95 /* Bitcamp2019.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11F4A987226192C00047AA95 /* Bitcamp2019 */ = {
+			isa = PBXGroup;
+			children = (
+				11F4A9B82261ADB80047AA95 /* Utility Icons */,
+				11F4A9B32261ABCA0047AA95 /* Backgrounds */,
+				11F4A9AA2261A3450047AA95 /* Fonts */,
+				11F4A99D2261A0A20047AA95 /* Mood Icons */,
+				11F4A988226192C00047AA95 /* AppDelegate.swift */,
+				11F4A98A226192C00047AA95 /* ViewController.swift */,
+				11F4A9C12261B6B20047AA95 /* StatController.swift */,
+				11F4A98C226192C00047AA95 /* Main.storyboard */,
+				11F4A98F226192C20047AA95 /* Assets.xcassets */,
+				11F4A991226192C20047AA95 /* LaunchScreen.storyboard */,
+				11F4A994226192C20047AA95 /* Info.plist */,
+			);
+			path = Bitcamp2019;
+			sourceTree = "<group>";
+		};
+		11F4A99D2261A0A20047AA95 /* Mood Icons */ = {
+			isa = PBXGroup;
+			children = (
+				11F4A9B12261A9700047AA95 /* sunny.png */,
+				11F4A9A82261A26D0047AA95 /* happy.png */,
+				11F4A99E2261A0B50047AA95 /* angry.png */,
+				11F4A9A22261A0B50047AA95 /* sad.png */,
+				11F4A9A12261A0B50047AA95 /* scare.png */,
+				11F4A99F2261A0B50047AA95 /* sleepy.png */,
+				11F4A9A02261A0B50047AA95 /* surprised.png */,
+			);
+			path = "Mood Icons";
+			sourceTree = "<group>";
+		};
+		11F4A9AA2261A3450047AA95 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				11F4A9AF2261A4850047AA95 /* Bloomer DEMO.otf */,
+				11F4A9AD2261A3CB0047AA95 /* CHERL___.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		11F4A9B32261ABCA0047AA95 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				11F4A9C32261C8C10047AA95 /* export.png */,
+				11F4A9BF2261B0F60047AA95 /* StatBackground.jpg */,
+				11F4A9B62261AC810047AA95 /* AnxietyScreen.jpeg */,
+				11F4A99A22619DED0047AA95 /* HomeScreen.jpg */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		11F4A9B82261ADB80047AA95 /* Utility Icons */ = {
+			isa = PBXGroup;
+			children = (
+				112D184E2261D4AE000DB9D0 /* bar.png */,
+				112D184C2261D275000DB9D0 /* house.png */,
+				11F4A9B92261AE090047AA95 /* question.png */,
+			);
+			path = "Utility Icons";
+			sourceTree = "<group>";
+		};
+		AB88188C50F2BAFA4BCFA9EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B210007B38AEB2BE1113E3E /* Pods-Bitcamp2019.debug.xcconfig */,
+				CA82B0129B3DAFA11CA0790D /* Pods-Bitcamp2019.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCD9D74081D860B014644C88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3522CE1F593B3BC130A30288 /* Pods_Bitcamp2019.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11F4A984226192C00047AA95 /* Bitcamp2019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F4A997226192C20047AA95 /* Build configuration list for PBXNativeTarget "Bitcamp2019" */;
+			buildPhases = (
+				D7157B7B5F196B6FA813FD70 /* [CP] Check Pods Manifest.lock */,
+				11F4A981226192C00047AA95 /* Sources */,
+				11F4A982226192C00047AA95 /* Frameworks */,
+				11F4A983226192C00047AA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bitcamp2019;
+			productName = Bitcamp2019;
+			productReference = 11F4A985226192C00047AA95 /* Bitcamp2019.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11F4A97D226192C00047AA95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Zac;
+				TargetAttributes = {
+					11F4A984226192C00047AA95 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 11F4A980226192C00047AA95 /* Build configuration list for PBXProject "Bitcamp2019" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11F4A97C226192C00047AA95;
+			productRefGroup = 11F4A986226192C00047AA95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11F4A984226192C00047AA95 /* Bitcamp2019 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F4A983226192C00047AA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F4A9A72261A0B50047AA95 /* sad.png in Resources */,
+				11F4A9A32261A0B50047AA95 /* angry.png in Resources */,
+				11F4A993226192C20047AA95 /* LaunchScreen.storyboard in Resources */,
+				11F4A9A62261A0B50047AA95 /* scare.png in Resources */,
+				11F4A990226192C20047AA95 /* Assets.xcassets in Resources */,
+				11F4A9B22261A9700047AA95 /* sunny.png in Resources */,
+				11F4A9A52261A0B50047AA95 /* surprised.png in Resources */,
+				112D184F2261D4AE000DB9D0 /* bar.png in Resources */,
+				11F4A99C22619DED0047AA95 /* HomeScreen.jpg in Resources */,
+				11F4A9C02261B0F60047AA95 /* StatBackground.jpg in Resources */,
+				11F4A98E226192C00047AA95 /* Main.storyboard in Resources */,
+				112D184D2261D275000DB9D0 /* house.png in Resources */,
+				11F4A9B02261A4850047AA95 /* Bloomer DEMO.otf in Resources */,
+				11F4A9BA2261AE090047AA95 /* question.png in Resources */,
+				11F4A9B72261AC810047AA95 /* AnxietyScreen.jpeg in Resources */,
+				11F4A9A92261A26D0047AA95 /* happy.png in Resources */,
+				11F4A9A42261A0B50047AA95 /* sleepy.png in Resources */,
+				11F4A9AE2261A3CB0047AA95 /* CHERL___.TTF in Resources */,
+				11F4A9C42261C8C10047AA95 /* export.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7157B7B5F196B6FA813FD70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitcamp2019-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11F4A981226192C00047AA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F4A9C22261B6B20047AA95 /* StatController.swift in Sources */,
+				11F4A98B226192C00047AA95 /* ViewController.swift in Sources */,
+				11F4A989226192C00047AA95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11F4A98C226192C00047AA95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F4A98D226192C00047AA95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11F4A991226192C20047AA95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F4A992226192C20047AA95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		11F4A99A22619DED0047AA95 /* HomeScreen.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F4A99B22619DED0047AA95 /* Base */,
+			);
+			name = HomeScreen.jpg;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11F4A995226192C20047AA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11F4A996226192C20047AA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11F4A998226192C20047AA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B210007B38AEB2BE1113E3E /* Pods-Bitcamp2019.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BJFK2DS5P;
+				INFOPLIST_FILE = Bitcamp2019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zac.Bitcamp2019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11F4A999226192C20047AA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA82B0129B3DAFA11CA0790D /* Pods-Bitcamp2019.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BJFK2DS5P;
+				INFOPLIST_FILE = Bitcamp2019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zac.Bitcamp2019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F4A980226192C00047AA95 /* Build configuration list for PBXProject "Bitcamp2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F4A995226192C20047AA95 /* Debug */,
+				11F4A996226192C20047AA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F4A997226192C20047AA95 /* Build configuration list for PBXNativeTarget "Bitcamp2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F4A998226192C20047AA95 /* Debug */,
+				11F4A999226192C20047AA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11F4A97D226192C00047AA95 /* Project object */;
+}
