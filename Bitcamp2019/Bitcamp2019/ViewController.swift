@@ -82,6 +82,24 @@ class ViewController: UIViewController {
         angryDefault.setValue(suicideClicks, forKey: "suicide")
         print("Saving suicide to UserDefault as: ", suicideClicks);
         suicideDefault.synchronize()
+        
+        sadClicks = 0;
+        var sadDefault = UserDefaults.standard
+        angryDefault.setValue(sadClicks, forKey: "sad")
+        print("Saving sad to UserDefault as: ", sadClicks);
+        sadDefault.synchronize()
+        
+        happyClicks = 0;
+        var happyDefault = UserDefaults.standard
+        happyDefault.setValue(happyClicks, forKey: "happy")
+        print("Saving happy to UserDefault as: ", happyClicks);
+        happyDefault.synchronize()
+        
+        sleepyClicks = 0;
+        var sleepyDefault = UserDefaults.standard
+        sleepyDefault.setValue(suicideClicks, forKey: "sleepy")
+        print("Saving suicide to UserDefault as: ", sleepyClicks);
+        sleepyDefault.synchronize()
     }
     
     @IBAction func increaseAnxiousClicks(_ sender: UIButton) {
@@ -111,15 +129,27 @@ class ViewController: UIViewController {
     
     @IBAction func increaseSadClicks(_ sender: UIButton) {
         sadClicks += 1
+        var sadDefault = UserDefaults.standard
+        sadDefault.setValue(suicideClicks, forKey: "sad")
+        print("Saving sad to UserDefault as: ", sadClicks);
+        sadDefault.synchronize()
     }
     
     
     @IBAction func increaseHappyClicks(_ sender: UIButton) {
         happyClicks += 1
+        var happyDefault = UserDefaults.standard
+        happyDefault.setValue(happyClicks, forKey: "happy")
+        print("Saving happy to UserDefault as: ", happyClicks);
+        happyDefault.synchronize()
     }
     
     @IBAction func increaseSleepyClicks(_ sender: UIButton) {
         sleepyClicks += 1
+        var sleepyDefault = UserDefaults.standard
+        sleepyDefault.setValue(sleepyClicks, forKey: "sleepy")
+        print("Saving happy to UserDefault as: ", happyClicks);
+        sleepyDefault.synchronize()
     }
     
 }

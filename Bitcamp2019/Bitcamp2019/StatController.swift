@@ -7,12 +7,10 @@
 //
 
 import UIKit
-var x = 13.5
+var x = -63
 var xDiff = 60
 
 class StatController: UIViewController {
-    
-    @IBOutlet weak var angryLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,20 +40,28 @@ class StatController: UIViewController {
         
         func updateBars(clicks: Int, xCoord: Int){
             
-            if(clicks > 7){
-                let clicks = 7
+            if(clicks <= 5){
+                
+                var imageView = UIImageView(frame: CGRect(x: xCoord, y: 550 - (clicks * 70) - 10, width: 210, height: clicks * 70)); // set as you want
+                var bar = UIImage(named: "mainBar.png");
+                imageView.image = bar;
+                self.view.addSubview(imageView);
             }
-            var imageView = UIImageView(frame: CGRect(x: xCoord, y: 400 - clicks * 30 , width: 50, height: clicks * 30)); // set as you want
-            var bar = UIImage(named: "rectangle.jpg");
-            imageView.image = bar;
-            self.view.addSubview(imageView);
+            else
+            {
+                var imageView = UIImageView(frame: CGRect(x: xCoord, y: 550 - (5 * 70) - 10, width: 210, height: 5 * 70)); // set as you want
+                var bar = UIImage(named: "mainBar.png");
+                imageView.image = bar;
+                self.view.addSubview(imageView);
+            }
+            
         }
         updateBars(clicks: anxiousClicks, xCoord: Int(x))
-        updateBars(clicks: angryClicks, xCoord: Int(x) + 1 * xDiff)
-        updateBars(clicks: suicideClicks, xCoord: Int(x) + 2 * xDiff)
-        updateBars(clicks: sadClicks, xCoord: Int(x) + 3 * xDiff)
-        updateBars(clicks: happyClicks, xCoord: Int(x) + 4 * xDiff)
-        updateBars(clicks: sleepyClicks, xCoord: Int(x) + 5 * xDiff)
+        updateBars(clicks: angryClicks, xCoord: Int(x-1) + 1 * xDiff)
+        updateBars(clicks: suicideClicks, xCoord: Int(x-2) + 2 * xDiff)
+        updateBars(clicks: sadClicks, xCoord: Int(x-3) + 3 * xDiff)
+        updateBars(clicks: happyClicks, xCoord: Int(x-3) + 4 * xDiff)
+        updateBars(clicks: sleepyClicks, xCoord: Int(x-4) + 5 * xDiff)
         
        
        
