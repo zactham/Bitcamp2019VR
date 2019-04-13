@@ -10,7 +10,6 @@ import UIKit
 
 var anxiousClicks = 0
 var angryClicks = 0
-var angryAmount = 0;
 var suicideClicks = 0
 var sadClicks = 0
 var happyClicks = 0
@@ -46,6 +45,18 @@ class ViewController: UIViewController {
             print("No angry key found");
         }
         
+        var suicideDefault = UserDefaults.standard
+        
+        if(suicideDefault.value(forKey: "suicide") != nil)
+        {
+            suicideClicks = angryDefault.value(forKey: "suicide") as! NSInteger
+            print("Loading suicide from user defaults as: ", suicideClicks);
+        }
+        else
+        {
+            print("No angry key found");
+        }
+        
         
         
         
@@ -60,12 +71,17 @@ class ViewController: UIViewController {
         print("Saving anxious to UserDefault as: ", anxiousClicks);
         anxiousDefault.synchronize()
         
-        
         angryClicks = 0;
         var angryDefault = UserDefaults.standard
         angryDefault.setValue(angryClicks, forKey: "angry")
         print("Saving angry to UserDefault as: ", angryClicks);
         angryDefault.synchronize()
+        
+        suicideClicks = 0;
+        var suicideDefault = UserDefaults.standard
+        angryDefault.setValue(suicideClicks, forKey: "suicide")
+        print("Saving suicide to UserDefault as: ", suicideClicks);
+        suicideDefault.synchronize()
     }
     
     @IBAction func increaseAnxiousClicks(_ sender: UIButton) {
@@ -87,6 +103,10 @@ class ViewController: UIViewController {
     
     @IBAction func increaseSuicideClicks(_ sender: UIButton){
         suicideClicks += 1
+        var suicideDefault = UserDefaults.standard
+        suicideDefault.setValue(suicideClicks, forKey: "suicide")
+        print("Saving suicide to UserDefault as: ", suicideClicks);
+        suicideDefault.synchronize()
     }
     
     @IBAction func increaseSadClicks(_ sender: UIButton) {
