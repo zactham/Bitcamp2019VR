@@ -194,10 +194,10 @@
             </objects>
             <point key="canvasLocation" x="61.600000000000001" y="26.53673163418291"/>
         </scene>
-        <!--View Controller-->
+        <!--Anxiety Controller-->
         <scene sceneID="lN3-py-USa">
             <objects>
-                <viewController id="VRi-Mk-5n5" sceneMemberID="viewController">
+                <viewController id="VRi-Mk-5n5" customClass="AnxietyController" customModule="Bitcamp2019" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Ii-BE-JXn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -206,7 +206,27 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="breathe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVD-Ly-Xdf">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shk-57-Sci">
+                                <rect key="frame" x="292" y="323" width="51" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="music.png"/>
+                                <connections>
+                                    <action selector="marleySounds:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="SIY-wr-QUE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPg-sv-1Dt">
+                                <rect key="frame" x="37" y="323" width="51" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="wave.png"/>
+                                <connections>
+                                    <action selector="oceanMusic:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="iuN-Ds-Odg"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exercise.png" translatesAutoresizingMaskIntoConstraints="NO" id="Uak-4R-v0n">
+                                <rect key="frame" x="157" y="34" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Think" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVD-Ly-Xdf">
                                 <rect key="frame" x="0.0" y="102" width="375" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="61"/>
@@ -221,14 +241,43 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="8HX-ea-DV4"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exercise.png" translatesAutoresizingMaskIntoConstraints="NO" id="Uak-4R-v0n">
-                                <rect key="frame" x="157" y="34" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mk2-Jd-H57">
+                                <rect key="frame" x="166" y="323" width="51" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button" image="forest.png"/>
+                                <connections>
+                                    <action selector="natureMusic:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="grH-Sa-Ejs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click for advice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRM-ei-IOy">
+                                <rect key="frame" x="0.0" y="474" width="375" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
+                                <color key="textColor" red="0.3149522510833852" green="0.27605114906205958" blue="0.76022714376449585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5SY-Rk-H05">
+                                <rect key="frame" x="162" y="526" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="arrow.png"/>
+                                <connections>
+                                    <action selector="updateLabel:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="XLq-fK-0E1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listen to the soothing sounds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-eX-KB9">
+                                <rect key="frame" x="0.0" y="217" width="375" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="B2g-8f-WDK"/>
                     </view>
+                    <connections>
+                        <outlet property="adviceLabel" destination="mRM-ei-IOy" id="wE6-pe-pyx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QpU-pL-DTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -374,16 +423,20 @@
         <image name="StatBackground.jpg" width="684" height="1280"/>
         <image name="angryMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="anxiousMain.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="arrow.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="exercise.png" width="512" height="512"/>
         <image name="fireplace.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="forest.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="happyMain.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="music.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="sadMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="sleepyMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="sunset (1).png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="surprisedMain.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="wave.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="weekly-calendar.png" width="409.60000610351562" height="409.60000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xyu-ev-mcB"/>
+        <segue reference="ZyU-Mf-a7x"/>
     </inferredMetricsTieBreakers>
 </document>

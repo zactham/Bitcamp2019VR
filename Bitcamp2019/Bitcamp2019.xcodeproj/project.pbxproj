@@ -18,6 +18,18 @@
 		112D187022626FF1000DB9D0 /* weekly-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D186C22626FF1000DB9D0 /* weekly-calendar.png */; };
 		112D1872226270AE000DB9D0 /* fireplace.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D1871226270AE000DB9D0 /* fireplace.png */; };
 		112D1878226291BC000DB9D0 /* mainBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D1877226291BC000DB9D0 /* mainBar.png */; };
+		112D187A226292D6000DB9D0 /* Anxiety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D1879226292D6000DB9D0 /* Anxiety.swift */; };
+		112D188022629453000DB9D0 /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D187C22629453000DB9D0 /* drop.png */; };
+		112D188122629453000DB9D0 /* forest.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D187D22629453000DB9D0 /* forest.png */; };
+		112D188222629453000DB9D0 /* headphones.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D187E22629453000DB9D0 /* headphones.png */; };
+		112D188322629453000DB9D0 /* lotus.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D187F22629453000DB9D0 /* lotus.png */; };
+		112D188722629E45000DB9D0 /* nature.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 112D188522629E45000DB9D0 /* nature.mp3 */; };
+		112D188A22629E5B000DB9D0 /* ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 112D188922629E5B000DB9D0 /* ocean.mp3 */; };
+		112D188C22629E70000DB9D0 /* wave.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D188B22629E70000DB9D0 /* wave.png */; };
+		112D188E2262A0B7000DB9D0 /* Three Little Birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 112D188D2262A0B7000DB9D0 /* Three Little Birds.mp3 */; };
+		112D18902262A0D0000DB9D0 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D188F2262A0CF000DB9D0 /* music.png */; };
+		112D18922262AD2F000DB9D0 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D18912262AD2F000DB9D0 /* arrow.png */; };
+		112D18942262B2CF000DB9D0 /* angryBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 112D18932262B2CF000DB9D0 /* angryBackground.jpeg */; };
 		11F4A989226192C00047AA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4A988226192C00047AA95 /* AppDelegate.swift */; };
 		11F4A98B226192C00047AA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4A98A226192C00047AA95 /* ViewController.swift */; };
 		11F4A98E226192C00047AA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A98C226192C00047AA95 /* Main.storyboard */; };
@@ -53,6 +65,18 @@
 		112D186C22626FF1000DB9D0 /* weekly-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weekly-calendar.png"; path = "../../../../../Downloads/weekly-calendar.png"; sourceTree = "<group>"; };
 		112D1871226270AE000DB9D0 /* fireplace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fireplace.png; path = ../../../../../Downloads/fireplace.png; sourceTree = "<group>"; };
 		112D1877226291BC000DB9D0 /* mainBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainBar.png; path = ../../../../../Downloads/mainBar.png; sourceTree = "<group>"; };
+		112D1879226292D6000DB9D0 /* Anxiety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anxiety.swift; sourceTree = "<group>"; };
+		112D187C22629453000DB9D0 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drop.png; path = ../../../../../Downloads/drop.png; sourceTree = "<group>"; };
+		112D187D22629453000DB9D0 /* forest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forest.png; path = ../../../../../Downloads/forest.png; sourceTree = "<group>"; };
+		112D187E22629453000DB9D0 /* headphones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = headphones.png; path = ../../../../../Downloads/headphones.png; sourceTree = "<group>"; };
+		112D187F22629453000DB9D0 /* lotus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lotus.png; path = ../../../../../Downloads/lotus.png; sourceTree = "<group>"; };
+		112D188522629E45000DB9D0 /* nature.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nature.mp3; path = ../../../../../Downloads/nature.mp3; sourceTree = "<group>"; };
+		112D188922629E5B000DB9D0 /* ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ocean.mp3; path = ../../../../../Downloads/ocean.mp3; sourceTree = "<group>"; };
+		112D188B22629E70000DB9D0 /* wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wave.png; path = ../../../../../Downloads/wave.png; sourceTree = "<group>"; };
+		112D188D2262A0B7000DB9D0 /* Three Little Birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Three Little Birds.mp3"; path = "../../../../../Downloads/Three Little Birds.mp3"; sourceTree = "<group>"; };
+		112D188F2262A0CF000DB9D0 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = music.png; path = ../../../../../Downloads/music.png; sourceTree = "<group>"; };
+		112D18912262AD2F000DB9D0 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../../../../../Downloads/arrow.png; sourceTree = "<group>"; };
+		112D18932262B2CF000DB9D0 /* angryBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = angryBackground.jpeg; path = ../../../../../Downloads/angryBackground.jpeg; sourceTree = "<group>"; };
 		11F4A985226192C00047AA95 /* Bitcamp2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitcamp2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F4A988226192C00047AA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F4A98A226192C00047AA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +136,30 @@
 			path = Music;
 			sourceTree = "<group>";
 		};
+		112D187B22629441000DB9D0 /* Anxiety Icons */ = {
+			isa = PBXGroup;
+			children = (
+				112D18912262AD2F000DB9D0 /* arrow.png */,
+				112D188F2262A0CF000DB9D0 /* music.png */,
+				112D188B22629E70000DB9D0 /* wave.png */,
+				112D187C22629453000DB9D0 /* drop.png */,
+				112D187D22629453000DB9D0 /* forest.png */,
+				112D187E22629453000DB9D0 /* headphones.png */,
+				112D187F22629453000DB9D0 /* lotus.png */,
+			);
+			path = "Anxiety Icons";
+			sourceTree = "<group>";
+		};
+		112D188422629535000DB9D0 /* Anxiety Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				112D188D2262A0B7000DB9D0 /* Three Little Birds.mp3 */,
+				112D188922629E5B000DB9D0 /* ocean.mp3 */,
+				112D188522629E45000DB9D0 /* nature.mp3 */,
+			);
+			path = "Anxiety Sounds";
+			sourceTree = "<group>";
+		};
 		11F4A97C226192C00047AA95 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +181,8 @@
 		11F4A987226192C00047AA95 /* Bitcamp2019 */ = {
 			isa = PBXGroup;
 			children = (
+				112D188422629535000DB9D0 /* Anxiety Sounds */,
+				112D187B22629441000DB9D0 /* Anxiety Icons */,
 				112D186022626E12000DB9D0 /* Music */,
 				112D185622625435000DB9D0 /* Basic Icons */,
 				11F4A9B82261ADB80047AA95 /* Utility Icons */,
@@ -143,6 +193,7 @@
 				11F4A98A226192C00047AA95 /* ViewController.swift */,
 				11F4A9C12261B6B20047AA95 /* StatController.swift */,
 				11F4A98C226192C00047AA95 /* Main.storyboard */,
+				112D1879226292D6000DB9D0 /* Anxiety.swift */,
 				11F4A98F226192C20047AA95 /* Assets.xcassets */,
 				11F4A991226192C20047AA95 /* LaunchScreen.storyboard */,
 				11F4A994226192C20047AA95 /* Info.plist */,
@@ -176,6 +227,7 @@
 		11F4A9B32261ABCA0047AA95 /* Backgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				112D18932262B2CF000DB9D0 /* angryBackground.jpeg */,
 				11F4A9C32261C8C10047AA95 /* export.png */,
 				11F4A9BF2261B0F60047AA95 /* StatBackground.jpg */,
 				11F4A9B62261AC810047AA95 /* AnxietyScreen.jpeg */,
@@ -271,8 +323,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112D188122629453000DB9D0 /* forest.png in Resources */,
+				112D188322629453000DB9D0 /* lotus.png in Resources */,
 				11F4A9A72261A0B50047AA95 /* sadMain.png in Resources */,
+				112D188722629E45000DB9D0 /* nature.mp3 in Resources */,
 				112D186D22626FF1000DB9D0 /* sea.png in Resources */,
+				112D188022629453000DB9D0 /* drop.png in Resources */,
 				11F4A9A32261A0B50047AA95 /* angryMain.png in Resources */,
 				11F4A993226192C20047AA95 /* LaunchScreen.storyboard in Resources */,
 				11F4A9A62261A0B50047AA95 /* anxiousMain.png in Resources */,
@@ -280,11 +336,16 @@
 				11F4A9A52261A0B50047AA95 /* surprisedMain.png in Resources */,
 				112D185122624C5D000DB9D0 /* anxious2.png in Resources */,
 				112D184F2261D4AE000DB9D0 /* bar.png in Resources */,
+				112D188222629453000DB9D0 /* headphones.png in Resources */,
 				11F4A99C22619DED0047AA95 /* HomeScreen.jpg in Resources */,
+				112D18902262A0D0000DB9D0 /* music.png in Resources */,
 				11F4A9C02261B0F60047AA95 /* StatBackground.jpg in Resources */,
 				112D185D22625814000DB9D0 /* sunset.png in Resources */,
+				112D18942262B2CF000DB9D0 /* angryBackground.jpeg in Resources */,
+				112D188C22629E70000DB9D0 /* wave.png in Resources */,
 				112D1878226291BC000DB9D0 /* mainBar.png in Resources */,
 				11F4A98E226192C00047AA95 /* Main.storyboard in Resources */,
+				112D188E2262A0B7000DB9D0 /* Three Little Birds.mp3 in Resources */,
 				11F4A9B02261A4850047AA95 /* Bloomer DEMO.otf in Resources */,
 				112D187022626FF1000DB9D0 /* weekly-calendar.png in Resources */,
 				112D186F22626FF1000DB9D0 /* exercise.png in Resources */,
@@ -294,8 +355,10 @@
 				112D186E22626FF1000DB9D0 /* sunset (1).png in Resources */,
 				112D185B226254E3000DB9D0 /* calendar.png in Resources */,
 				112D186822626F76000DB9D0 /* notification.png in Resources */,
+				112D18922262AD2F000DB9D0 /* arrow.png in Resources */,
 				112D1872226270AE000DB9D0 /* fireplace.png in Resources */,
 				11F4A9AE2261A3CB0047AA95 /* CHERL___.TTF in Resources */,
+				112D188A22629E5B000DB9D0 /* ocean.mp3 in Resources */,
 				11F4A9C42261C8C10047AA95 /* export.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +393,7 @@
 			files = (
 				11F4A9C22261B6B20047AA95 /* StatController.swift in Sources */,
 				11F4A98B226192C00047AA95 /* ViewController.swift in Sources */,
+				112D187A226292D6000DB9D0 /* Anxiety.swift in Sources */,
 				11F4A989226192C00047AA95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
