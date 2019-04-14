@@ -46,9 +46,9 @@ class AnxietyController: UIViewController {
     
     @IBAction func updateLabel(_ sender: UIButton) {
         
-        var rand = Int.random(in: 0 ... 5)
+        var rand = Int.random(in: 0 ... 12)
         while(randomString == rand ){
-            rand = Int.random(in: 0 ... 5)
+            rand = Int.random(in: 0 ... 12)
         }
         randomString = rand
         adviceLabel.text = String(describing: labelArray[randomString])
@@ -69,7 +69,7 @@ class AnxietyController: UIViewController {
                 sound1 = true;
                 sound2 = false;
                 sound3 = false;
-                audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Three Little Birds", ofType: "mp3")!))
+                audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "meditateSound", ofType: "mp3")!))
                 audioPlayer.prepareToPlay()
                 audioPlayer.play()
                 //Loops the sound
@@ -147,8 +147,9 @@ class AnxietyController: UIViewController {
             audioPlayer.play()
         }
     }
+    
     @IBAction func homeButton(_ sender: UIButton) {
-        if(audioPlayer.isPlaying)
+        if(sound1 || sound2 || sound3)
         {
             audioPlayer.pause()
         }

@@ -69,6 +69,18 @@ class ViewController: UIViewController {
             print("No sad key found");
         }
         
+        var happyDefault = UserDefaults.standard
+        
+        if(happyDefault.value(forKey: "happy") != nil)
+        {
+            happyClicks = angryDefault.value(forKey: "happy") as! NSInteger
+            print("Loading happy from user defaults as: ", happyClicks);
+        }
+        else
+        {
+            print("No happy key found");
+        }
+        
         var sleepyDefault = UserDefaults.standard
         
         if(sleepyDefault.value(forKey: "sad") != nil)

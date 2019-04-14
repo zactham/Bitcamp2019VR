@@ -26,7 +26,6 @@
 		112D188722629E45000DB9D0 /* nature.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 112D188522629E45000DB9D0 /* nature.mp3 */; };
 		112D188A22629E5B000DB9D0 /* ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 112D188922629E5B000DB9D0 /* ocean.mp3 */; };
 		112D188C22629E70000DB9D0 /* wave.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D188B22629E70000DB9D0 /* wave.png */; };
-		112D188E2262A0B7000DB9D0 /* Three Little Birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 112D188D2262A0B7000DB9D0 /* Three Little Birds.mp3 */; };
 		112D18902262A0D0000DB9D0 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D188F2262A0CF000DB9D0 /* music.png */; };
 		112D18922262AD2F000DB9D0 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 112D18912262AD2F000DB9D0 /* arrow.png */; };
 		112D18942262B2CF000DB9D0 /* angryBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 112D18932262B2CF000DB9D0 /* angryBackground.jpeg */; };
@@ -62,6 +61,10 @@
 		11AD340D22630B550008F0EB /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD340C22630B550008F0EB /* happy.png */; };
 		11AD340F22630D450008F0EB /* sleepBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11AD340E22630D450008F0EB /* sleepBackground.jpg */; };
 		11AD341222630DA20008F0EB /* pillow.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD341122630DA20008F0EB /* pillow.png */; };
+		11AD3417226311730008F0EB /* meditateSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11AD3416226311730008F0EB /* meditateSound.mp3 */; };
+		11AD3419226312190008F0EB /* sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD3418226312190008F0EB /* sheep.png */; };
+		11AD341B226312420008F0EB /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD341A226312420008F0EB /* Sleep.swift */; };
+		11AD341D226315300008F0EB /* multimedia.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD341C226315300008F0EB /* multimedia.png */; };
 		11F4A989226192C00047AA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4A988226192C00047AA95 /* AppDelegate.swift */; };
 		11F4A98B226192C00047AA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4A98A226192C00047AA95 /* ViewController.swift */; };
 		11F4A98E226192C00047AA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A98C226192C00047AA95 /* Main.storyboard */; };
@@ -105,7 +108,6 @@
 		112D188522629E45000DB9D0 /* nature.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nature.mp3; path = ../../../../../Downloads/nature.mp3; sourceTree = "<group>"; };
 		112D188922629E5B000DB9D0 /* ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ocean.mp3; path = ../../../../../Downloads/ocean.mp3; sourceTree = "<group>"; };
 		112D188B22629E70000DB9D0 /* wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wave.png; path = ../../../../../Downloads/wave.png; sourceTree = "<group>"; };
-		112D188D2262A0B7000DB9D0 /* Three Little Birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Three Little Birds.mp3"; path = "../../../../../Downloads/Three Little Birds.mp3"; sourceTree = "<group>"; };
 		112D188F2262A0CF000DB9D0 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = music.png; path = ../../../../../Downloads/music.png; sourceTree = "<group>"; };
 		112D18912262AD2F000DB9D0 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../../../../../Downloads/arrow.png; sourceTree = "<group>"; };
 		112D18932262B2CF000DB9D0 /* angryBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = angryBackground.jpeg; path = ../../../../../Downloads/angryBackground.jpeg; sourceTree = "<group>"; };
@@ -141,6 +143,10 @@
 		11AD340C22630B550008F0EB /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happy.png; path = ../../../../../Downloads/happy.png; sourceTree = "<group>"; };
 		11AD340E22630D450008F0EB /* sleepBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sleepBackground.jpg; path = ../../../../../Downloads/sleepBackground.jpg; sourceTree = "<group>"; };
 		11AD341122630DA20008F0EB /* pillow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pillow.png; path = ../../../../../Downloads/pillow.png; sourceTree = "<group>"; };
+		11AD3416226311730008F0EB /* meditateSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditateSound.mp3; sourceTree = "<group>"; };
+		11AD3418226312190008F0EB /* sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sheep.png; path = ../../../../../Downloads/sheep.png; sourceTree = "<group>"; };
+		11AD341A226312420008F0EB /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		11AD341C226315300008F0EB /* multimedia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multimedia.png; path = ../../../../../Downloads/multimedia.png; sourceTree = "<group>"; };
 		11F4A985226192C00047AA95 /* Bitcamp2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitcamp2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F4A988226192C00047AA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F4A98A226192C00047AA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -193,13 +199,6 @@
 			path = "Basic Icons";
 			sourceTree = "<group>";
 		};
-		112D186022626E12000DB9D0 /* Music */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Music;
-			sourceTree = "<group>";
-		};
 		112D187B22629441000DB9D0 /* Anxiety Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,7 +216,7 @@
 		112D188422629535000DB9D0 /* Anxiety Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				112D188D2262A0B7000DB9D0 /* Three Little Birds.mp3 */,
+				11AD3416226311730008F0EB /* meditateSound.mp3 */,
 				112D188922629E5B000DB9D0 /* ocean.mp3 */,
 				112D188522629E45000DB9D0 /* nature.mp3 */,
 			);
@@ -284,6 +283,8 @@
 		11AD341022630D8B0008F0EB /* Sleep Icons */ = {
 			isa = PBXGroup;
 			children = (
+				11AD341C226315300008F0EB /* multimedia.png */,
+				11AD3418226312190008F0EB /* sheep.png */,
 				11AD341122630DA20008F0EB /* pillow.png */,
 			);
 			path = "Sleep Icons";
@@ -318,7 +319,6 @@
 				112D18952262B6D4000DB9D0 /* Angry Icons */,
 				112D188422629535000DB9D0 /* Anxiety Sounds */,
 				112D187B22629441000DB9D0 /* Anxiety Icons */,
-				112D186022626E12000DB9D0 /* Music */,
 				112D185622625435000DB9D0 /* Basic Icons */,
 				11F4A9B82261ADB80047AA95 /* Utility Icons */,
 				11F4A9B32261ABCA0047AA95 /* Backgrounds */,
@@ -327,6 +327,7 @@
 				11F4A988226192C00047AA95 /* AppDelegate.swift */,
 				11F4A98A226192C00047AA95 /* ViewController.swift */,
 				11F4A9C12261B6B20047AA95 /* StatController.swift */,
+				11AD341A226312420008F0EB /* Sleep.swift */,
 				11F4A98C226192C00047AA95 /* Main.storyboard */,
 				11AD33FF2262E9E30008F0EB /* Sad.swift */,
 				112D1879226292D6000DB9D0 /* Anxiety.swift */,
@@ -470,6 +471,7 @@
 				112D188122629453000DB9D0 /* forest.png in Resources */,
 				112D188322629453000DB9D0 /* lotus.png in Resources */,
 				11F4A9A72261A0B50047AA95 /* sadMain.png in Resources */,
+				11AD3419226312190008F0EB /* sheep.png in Resources */,
 				11AD33FE2262E9860008F0EB /* youtube.png in Resources */,
 				112D188722629E45000DB9D0 /* nature.mp3 in Resources */,
 				112D186D22626FF1000DB9D0 /* sea.png in Resources */,
@@ -508,7 +510,6 @@
 				11302E442262D93A00799921 /* quote5.jpg in Resources */,
 				112D1878226291BC000DB9D0 /* mainBar.png in Resources */,
 				11F4A98E226192C00047AA95 /* Main.storyboard in Resources */,
-				112D188E2262A0B7000DB9D0 /* Three Little Birds.mp3 in Resources */,
 				11F4A9B02261A4850047AA95 /* Bloomer DEMO.otf in Resources */,
 				112D187022626FF1000DB9D0 /* weekly-calendar.png in Resources */,
 				11AD33FC2262E3D10008F0EB /* jack-in-the-box.png in Resources */,
@@ -519,12 +520,14 @@
 				11302E472262D93A00799921 /* quote7.jpg in Resources */,
 				11302E482262D93A00799921 /* quote2.jpg in Resources */,
 				11302E322262D2A300799921 /* customer-service.png in Resources */,
+				11AD341D226315300008F0EB /* multimedia.png in Resources */,
 				11F4A9A42261A0B50047AA95 /* sleepyMain.png in Resources */,
 				112D186E22626FF1000DB9D0 /* sunset (1).png in Resources */,
 				112D18972262B703000DB9D0 /* winner.png in Resources */,
 				112D185B226254E3000DB9D0 /* calendar.png in Resources */,
 				11302E342262D2AB00799921 /* communication.png in Resources */,
 				11AD33F92262E31F0008F0EB /* sadBackground.jpg in Resources */,
+				11AD3417226311730008F0EB /* meditateSound.mp3 in Resources */,
 				112D186822626F76000DB9D0 /* notification.png in Resources */,
 				112D18922262AD2F000DB9D0 /* arrow.png in Resources */,
 				11AD340F22630D450008F0EB /* sleepBackground.jpg in Resources */,
@@ -571,6 +574,7 @@
 				112D187A226292D6000DB9D0 /* Anxiety.swift in Sources */,
 				11302E362262D2E300799921 /* Suicide.swift in Sources */,
 				11F4A989226192C00047AA95 /* AppDelegate.swift in Sources */,
+				11AD341B226312420008F0EB /* Sleep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
