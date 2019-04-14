@@ -82,7 +82,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bitcamp2019" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="titleScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="Bitcamp2019" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -238,7 +238,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="fireplace.png"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="8HX-ea-DV4"/>
+                                    <action selector="homeButton:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="G8t-7P-WRs"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="JFk-Fk-9GW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mk2-Jd-H57">
@@ -249,7 +250,7 @@
                                     <action selector="natureMusic:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="grH-Sa-Ejs"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click for advice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRM-ei-IOy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the arrow for advice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRM-ei-IOy">
                                 <rect key="frame" x="0.0" y="474" width="375" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
@@ -277,44 +278,114 @@
                     </view>
                     <connections>
                         <outlet property="adviceLabel" destination="mRM-ei-IOy" id="wE6-pe-pyx"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" id="AbM-jK-fQ2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QpU-pL-DTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-583.20000000000005" y="703.89805097451278"/>
         </scene>
-        <!--View Controller-->
+        <!--Angry Controller-->
         <scene sceneID="UQg-h4-jqg">
             <objects>
-                <viewController id="6Md-C9-iMt" sceneMemberID="viewController">
+                <viewController id="6Md-C9-iMt" customClass="AngryController" customModule="Bitcamp2019" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3sq-Rj-VkT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RqG-bG-T9i">
-                                <rect key="frame" x="160" y="281" width="54" height="34"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="angryBackground.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="72t-NV-Hzu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04F-Qa-jrg">
+                                <rect key="frame" x="157" y="409" width="51" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="laugh.png"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="JmQ-a0-mbh"/>
+                                    <action selector="friendButton:" destination="6Md-C9-iMt" eventType="touchUpInside" id="ceN-CT-u3r"/>
+                                    <action selector="marleySounds:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="jku-9I-FA8"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text a Friend" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DB4-iC-scD">
+                                <rect key="frame" x="111" y="369" width="153" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
+                                <color key="textColor" red="0.44240000839999999" green="0.72942239050000002" blue="0.93807762859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qj-Jx-5nJ">
+                                <rect key="frame" x="264" y="535" width="51" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="camera.png"/>
+                                <connections>
+                                    <action selector="activitesButton:" destination="6Md-C9-iMt" eventType="touchUpInside" id="L8R-YL-zhy"/>
+                                    <action selector="marleySounds:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="wpr-KS-u73"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a theatre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaI-rI-bjB">
+                                <rect key="frame" x="208" y="495" width="164" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
+                                <color key="textColor" red="0.4424000084400177" green="0.72942239046096802" blue="0.93807762861251831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forget" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbk-xa-mgt">
+                                <rect key="frame" x="0.0" y="100" width="375" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="61"/>
+                                <color key="textColor" red="0.94437247514724731" green="0.74037592291735732" blue="0.53560266446163596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="winner.png" translatesAutoresizingMaskIntoConstraints="NO" id="MWA-GI-tnw">
+                                <rect key="frame" x="157" y="46" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUe-Sw-U1e">
                                 <rect key="frame" x="329" y="617" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="fireplace.png"/>
                                 <connections>
+                                    <action selector="homeButton:" destination="i0z-Os-dJa" eventType="touchUpInside" id="ITj-N8-GZy"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="ZyU-Mf-a7x"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take your mind off the situation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cY4-xr-E8X">
+                                <rect key="frame" x="0.0" y="220" width="375" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pra-XX-imp">
+                                <rect key="frame" x="44" y="535" width="51" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="sneaker.png"/>
+                                <connections>
+                                    <action selector="exerciseButton:" destination="6Md-C9-iMt" eventType="touchUpInside" id="568-Yn-MXN"/>
+                                    <action selector="marleySounds:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="oss-W0-PAQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Hh-Le-7M0">
+                                <rect key="frame" x="16" y="621" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="gear.png"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a Gym" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PB2-dl-Vfh">
+                                <rect key="frame" x="14" y="495" width="138" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
+                                <color key="textColor" red="0.4424000084400177" green="0.72942239046096802" blue="0.93807762861251831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NDk-EQ-1CV"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="seu-dt-S1g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="i0z-Os-dJa" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="62" y="704"/>
+            <point key="canvasLocation" x="61.600000000000001" y="703.89805097451278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eFK-C0-Hkd">
@@ -324,6 +395,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="suicideBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="e11-CY-hbj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpB-Go-jX2">
                                 <rect key="frame" x="329" y="617" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -332,6 +407,17 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="UcM-tN-lV2"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="breathe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWc-ia-NMI">
+                                <rect key="frame" x="0.0" y="99" width="375" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="61"/>
+                                <color key="textColor" red="0.85147778743228897" green="0.42196989087858339" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="winner.png" translatesAutoresizingMaskIntoConstraints="NO" id="h4X-n6-Vk8">
+                                <rect key="frame" x="157" y="48" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="JD0-Oq-a6O"/>
@@ -339,7 +425,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DgE-3P-GhV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="697" y="704"/>
+            <point key="canvasLocation" x="696.79999999999995" y="703.89805097451278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qez-rl-Ram">
@@ -421,22 +507,29 @@
         <image name="AnxietyScreen.jpeg" width="168" height="299"/>
         <image name="HomeScreen.jpg" width="1125" height="2436"/>
         <image name="StatBackground.jpg" width="684" height="1280"/>
+        <image name="angryBackground.jpeg" width="168" height="299"/>
         <image name="angryMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="anxiousMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="arrow.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="camera.png" width="512" height="512"/>
         <image name="exercise.png" width="512" height="512"/>
         <image name="fireplace.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="forest.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="gear.png" width="512" height="512"/>
         <image name="happyMain.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="laugh.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="music.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="sadMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="sleepyMain.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="sneaker.png" width="384" height="384"/>
+        <image name="suicideBackground.jpg" width="469" height="832"/>
         <image name="sunset (1).png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="surprisedMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="wave.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="weekly-calendar.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="winner.png" width="384" height="384"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ZyU-Mf-a7x"/>
+        <segue reference="UcM-tN-lV2"/>
     </inferredMetricsTieBreakers>
 </document>

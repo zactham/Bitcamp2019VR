@@ -136,7 +136,7 @@ class AnxietyController: UIViewController {
         }
     }
     
-    func toggleSound()
+   public func toggleSound()
     {
         //print("sound pressed")
         if(audioPlayer.isPlaying)
@@ -146,6 +146,12 @@ class AnxietyController: UIViewController {
         else
         {
             audioPlayer.play()
+        }
+    }
+    @IBAction func homeButton(_ sender: UIButton) {
+        if(audioPlayer.isPlaying)
+        {
+            audioPlayer.pause()
         }
     }
 }
