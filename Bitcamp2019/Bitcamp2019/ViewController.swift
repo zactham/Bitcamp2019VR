@@ -25,11 +25,11 @@ class ViewController: UIViewController {
         if(anxiousDefault.value(forKey: "anxious") != nil)
         {
             anxiousClicks = anxiousDefault.value(forKey: "anxious") as! NSInteger
-            print("Loading angry from user defaults as: ", anxiousClicks);
+            print("Loading anxious from user defaults as: ", anxiousClicks);
         }
         else
         {
-            print("No angry key found");
+            print("No anxious key found");
         }
         
         ///
@@ -56,6 +56,32 @@ class ViewController: UIViewController {
         {
             print("No angry key found");
         }
+        
+        var sadDefault = UserDefaults.standard
+        
+        if(sadDefault.value(forKey: "sad") != nil)
+        {
+            sadClicks = angryDefault.value(forKey: "sad") as! NSInteger
+            print("Loading sad from user defaults as: ", sadClicks);
+        }
+        else
+        {
+            print("No sad key found");
+        }
+        
+        var sleepyDefault = UserDefaults.standard
+        
+        if(sleepyDefault.value(forKey: "sad") != nil)
+        {
+            sleepyClicks = angryDefault.value(forKey: "sleepy") as! NSInteger
+            print("Loading sleepy from user defaults as: ", sleepyClicks);
+        }
+        else
+        {
+            print("No sleepy key found");
+        }
+        
+        
         
         
         
@@ -85,7 +111,7 @@ class ViewController: UIViewController {
         
         sadClicks = 0;
         var sadDefault = UserDefaults.standard
-        angryDefault.setValue(sadClicks, forKey: "sad")
+        sadDefault.setValue(sadClicks, forKey: "sad")
         print("Saving sad to UserDefault as: ", sadClicks);
         sadDefault.synchronize()
         
@@ -130,7 +156,7 @@ class ViewController: UIViewController {
     @IBAction func increaseSadClicks(_ sender: UIButton) {
         sadClicks += 1
         var sadDefault = UserDefaults.standard
-        sadDefault.setValue(suicideClicks, forKey: "sad")
+        sadDefault.setValue(sadClicks, forKey: "sad")
         print("Saving sad to UserDefault as: ", sadClicks);
         sadDefault.synchronize()
     }

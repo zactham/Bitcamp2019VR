@@ -206,8 +206,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click for soothing sounds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awa-w2-wBc">
+                                <rect key="frame" x="0.0" y="301" width="375" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
+                                <color key="textColor" red="0.12399717392409235" green="0.66935838956038518" blue="0.74452127899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shk-57-Sci">
-                                <rect key="frame" x="292" y="323" width="51" height="49"/>
+                                <rect key="frame" x="295" y="358" width="51" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="music.png"/>
                                 <connections>
@@ -215,7 +222,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPg-sv-1Dt">
-                                <rect key="frame" x="37" y="323" width="51" height="49"/>
+                                <rect key="frame" x="40" y="358" width="51" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="wave.png"/>
                                 <connections>
@@ -243,7 +250,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mk2-Jd-H57">
-                                <rect key="frame" x="166" y="323" width="51" height="49"/>
+                                <rect key="frame" x="162" y="358" width="51" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="forest.png"/>
                                 <connections>
@@ -265,8 +272,8 @@
                                     <action selector="updateLabel:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="XLq-fK-0E1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listen to the soothing sounds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-eX-KB9">
-                                <rect key="frame" x="0.0" y="217" width="375" height="65"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clear you head" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-eX-KB9">
+                                <rect key="frame" x="0.0" y="216" width="375" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -288,7 +295,7 @@
         <!--Angry Controller-->
         <scene sceneID="UQg-h4-jqg">
             <objects>
-                <viewController id="6Md-C9-iMt" customClass="AngryController" customModule="Bitcamp2019" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sadScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Md-C9-iMt" customClass="AngryController" customModule="Bitcamp2019" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3sq-Rj-VkT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -297,33 +304,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04F-Qa-jrg">
-                                <rect key="frame" x="157" y="409" width="51" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="laugh.png"/>
-                                <connections>
-                                    <action selector="friendButton:" destination="6Md-C9-iMt" eventType="touchUpInside" id="ceN-CT-u3r"/>
-                                    <action selector="marleySounds:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="jku-9I-FA8"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text a Friend" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DB4-iC-scD">
-                                <rect key="frame" x="111" y="369" width="153" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
-                                <color key="textColor" red="0.44240000839999999" green="0.72942239050000002" blue="0.93807762859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qj-Jx-5nJ">
-                                <rect key="frame" x="264" y="535" width="51" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="camera.png"/>
-                                <connections>
-                                    <action selector="activitesButton:" destination="6Md-C9-iMt" eventType="touchUpInside" id="L8R-YL-zhy"/>
-                                    <action selector="marleySounds:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="wpr-KS-u73"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a theatre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaI-rI-bjB">
-                                <rect key="frame" x="208" y="495" width="164" height="32"/>
+                                <rect key="frame" x="195" y="370" width="164" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
                                 <color key="textColor" red="0.4424000084400177" green="0.72942239046096802" blue="0.93807762861251831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -357,26 +339,28 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pra-XX-imp">
-                                <rect key="frame" x="44" y="535" width="51" height="49"/>
+                                <rect key="frame" x="60" y="427" width="51" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="sneaker.png"/>
                                 <connections>
                                     <action selector="exerciseButton:" destination="6Md-C9-iMt" eventType="touchUpInside" id="568-Yn-MXN"/>
-                                    <action selector="marleySounds:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="oss-W0-PAQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Hh-Le-7M0">
-                                <rect key="frame" x="16" y="621" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="gear.png"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a Gym" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PB2-dl-Vfh">
-                                <rect key="frame" x="14" y="495" width="138" height="32"/>
+                                <rect key="frame" x="16" y="370" width="138" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
                                 <color key="textColor" red="0.4424000084400177" green="0.72942239046096802" blue="0.93807762861251831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qj-Jx-5nJ">
+                                <rect key="frame" x="252" y="427" width="51" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="camera.png"/>
+                                <connections>
+                                    <action selector="activitesButton:" destination="6Md-C9-iMt" eventType="touchUpInside" id="L8R-YL-zhy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NDk-EQ-1CV"/>
@@ -387,16 +371,42 @@
             </objects>
             <point key="canvasLocation" x="61.600000000000001" y="703.89805097451278"/>
         </scene>
-        <!--View Controller-->
+        <!--Suicide Controller-->
         <scene sceneID="eFK-C0-Hkd">
             <objects>
-                <viewController id="8bv-Tf-KtY" sceneMemberID="viewController">
+                <viewController id="8bv-Tf-KtY" customClass="SuicideController" customModule="Bitcamp2019" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cfd-LX-4fl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="suicideBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="e11-CY-hbj">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdb-dU-Udg">
+                                <rect key="frame" x="157" y="345" width="51" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="customer-service.png"/>
+                                <connections>
+                                    <action selector="callButton:" destination="8bv-Tf-KtY" eventType="touchUpInside" id="x9N-sL-KmJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Call for help" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZi-8Y-5Qt">
+                                <rect key="frame" x="113" y="305" width="151" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
+                                <color key="textColor" red="0.2443110748" green="0.74452127899999998" blue="0.49654305989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are not alone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duZ-bC-K6n">
+                                <rect key="frame" x="0.0" y="215" width="375" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="charity.png" translatesAutoresizingMaskIntoConstraints="NO" id="h4X-n6-Vk8">
+                                <rect key="frame" x="157" y="46" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpB-Go-jX2">
@@ -408,33 +418,77 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="breathe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWc-ia-NMI">
-                                <rect key="frame" x="0.0" y="99" width="375" height="74"/>
+                                <rect key="frame" x="0.0" y="100" width="375" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="61"/>
                                 <color key="textColor" red="0.85147778743228897" green="0.42196989087858339" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="winner.png" translatesAutoresizingMaskIntoConstraints="NO" id="h4X-n6-Vk8">
-                                <rect key="frame" x="157" y="48" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogt-Lg-DTa">
+                                <rect key="frame" x="0.0" y="399" width="375" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button" image="quote1.jpg"/>
+                                <connections>
+                                    <action selector="quotesButton:" destination="8bv-Tf-KtY" eventType="touchUpInside" id="UpY-Ya-hp6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the quotes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKq-yR-5KJ">
+                                <rect key="frame" x="0.0" y="615" width="375" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
+                                <color key="textColor" red="0.20728108379999999" green="0.7529579837" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.20728108383472321" green="0.75295798372266032" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="JD0-Oq-a6O"/>
                     </view>
+                    <connections>
+                        <outlet property="quoteButton" destination="Ogt-Lg-DTa" id="S7i-dp-TbH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DgE-3P-GhV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="696.79999999999995" y="703.89805097451278"/>
         </scene>
-        <!--View Controller-->
+        <!--Sad Controller-->
         <scene sceneID="Qez-rl-Ram">
             <objects>
-                <viewController id="Tar-bJ-7lW" sceneMemberID="viewController">
+                <viewController id="Tar-bJ-7lW" customClass="SadController" customModule="Bitcamp2019" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UZc-8N-GPv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sadBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xL4-iw-Z3B">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zht-nV-hb4">
+                                <rect key="frame" x="157" y="517" width="51" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="youtube.png"/>
+                                <connections>
+                                    <action selector="youtubeButton:" destination="Tar-bJ-7lW" eventType="touchUpInside" id="8em-Xi-4wp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Try to laugh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W98-Bg-JpN">
+                                <rect key="frame" x="0.0" y="201" width="375" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Smile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdl-fq-F7i">
+                                <rect key="frame" x="0.0" y="119" width="375" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="61"/>
+                                <color key="textColor" red="0.41082741852245058" green="0.9443724751" blue="0.91932191074654168" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jack-in-the-box.png" translatesAutoresizingMaskIntoConstraints="NO" id="mPk-eJ-29h">
+                                <rect key="frame" x="157" y="51" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qj4-YB-JBE">
                                 <rect key="frame" x="329" y="624" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -443,14 +497,37 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="j2H-Gk-dCI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04F-Qa-jrg">
+                                <rect key="frame" x="157" y="352" width="51" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="laugh.png"/>
+                                <connections>
+                                    <action selector="friendButton:" destination="6Md-C9-iMt" eventType="touchUpInside" id="ceN-CT-u3r"/>
+                                    <action selector="textFriend:" destination="Tar-bJ-7lW" eventType="touchUpInside" id="OGw-yB-7lx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text a hotline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DB4-iC-scD">
+                                <rect key="frame" x="106" y="300" width="163" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
+                                <color key="textColor" red="0.9443724751" green="0.82625486459999997" blue="0.6125957125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watch funny videos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Oh-qJ-emm">
+                                <rect key="frame" x="8" y="462" width="359" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
+                                <color key="textColor" red="0.9443724751" green="0.34893477591465827" blue="0.29835684961288222" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.18540824120497512" blue="0.57433763622390421" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="RgW-I9-dE1"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xwe-YH-FxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-628" y="1395"/>
+            <point key="canvasLocation" x="-583" y="1390"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0WJ-J4-gMb">
@@ -460,6 +537,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happyBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ijk-70-Hh4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happy.png" translatesAutoresizingMaskIntoConstraints="NO" id="cTb-if-A50">
+                                <rect key="frame" x="157" y="50" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2t-cu-b4L">
                                 <rect key="frame" x="329" y="617" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -468,6 +553,24 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="CAh-6x-cNN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have a great day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qq4-Gb-A5J">
+                                <rect key="frame" x="0.0" y="200" width="375" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="enjoy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xG-7D-UUd">
+                                <rect key="frame" x="0.0" y="118" width="375" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="61"/>
+                                <color key="textColor" red="0.93807762859999999" green="0.22674042699999999" blue="0.26978036129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunset (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="18C-cI-Alf">
+                                <rect key="frame" x="78" y="287" width="218" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6OH-FC-g9U"/>
@@ -475,7 +578,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a6g-iN-li2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="51" y="1391"/>
+            <point key="canvasLocation" x="50.399999999999999" y="1390.2548725637182"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CcP-OH-Mg6">
@@ -493,6 +596,28 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="cPO-tU-sMr"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sleepBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UHg-f2-CVE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="relax" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnk-Id-yU1">
+                                <rect key="frame" x="0.0" y="122" width="375" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="61"/>
+                                <color key="textColor" red="0.93807762859999999" green="0.72540594163845451" blue="0.89828067217468355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pillow.png" translatesAutoresizingMaskIntoConstraints="NO" id="suH-zF-Ldb">
+                                <rect key="frame" x="157" y="54" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ease your mind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tyh-Cx-60U">
+                                <rect key="frame" x="0.0" y="204" width="375" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VwZ-Wt-Uzn"/>
@@ -500,7 +625,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kYb-qc-7ZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692" y="1388"/>
+            <point key="canvasLocation" x="692" y="1387.5562218890557"/>
         </scene>
     </scenes>
     <resources>
@@ -512,14 +637,22 @@
         <image name="anxiousMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="arrow.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="camera.png" width="512" height="512"/>
+        <image name="charity.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="customer-service.png" width="512" height="512"/>
         <image name="exercise.png" width="512" height="512"/>
         <image name="fireplace.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="forest.png" width="409.60000610351562" height="409.60000610351562"/>
-        <image name="gear.png" width="512" height="512"/>
+        <image name="happy.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="happyBackground.jpg" width="640" height="1136"/>
         <image name="happyMain.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="jack-in-the-box.png" width="512" height="512"/>
         <image name="laugh.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="music.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="pillow.png" width="512" height="512"/>
+        <image name="quote1.jpg" width="830" height="467"/>
+        <image name="sadBackground.jpg" width="981" height="1742.25"/>
         <image name="sadMain.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="sleepBackground.jpg" width="150" height="266.25"/>
         <image name="sleepyMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="sneaker.png" width="384" height="384"/>
         <image name="suicideBackground.jpg" width="469" height="832"/>
@@ -528,8 +661,9 @@
         <image name="wave.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="weekly-calendar.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="winner.png" width="384" height="384"/>
+        <image name="youtube.png" width="409.60000610351562" height="409.60000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UcM-tN-lV2"/>
+        <segue reference="cPO-tU-sMr"/>
     </inferredMetricsTieBreakers>
 </document>

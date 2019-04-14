@@ -21,7 +21,6 @@ class AnxietyController: UIViewController {
     
     var labelNum = 0;
     
-    
     var randomString = 0;
     
     var labelArray:[String] = ["Don't worry", "Count to 10", "Only focus on the present", "Take your time", "Deep breaths", "Think calm thoughts",

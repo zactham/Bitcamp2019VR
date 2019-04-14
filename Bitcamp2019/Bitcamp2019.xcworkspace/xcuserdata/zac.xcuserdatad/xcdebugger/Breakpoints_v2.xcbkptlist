@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bitcamp2019/Sad.swift"
+            timestampString = "576915922.940177"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "SadController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bitcamp2019.SadController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Bitcamp2019.SadController"
+                  moduleName = "Bitcamp2019"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zac/Desktop/Bitcamp2019XcodeTake1/Bitcamp2019/Bitcamp2019/Sad.swift"
+                  timestampString = "576914688.865564"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bitcamp2019.SadController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Bitcamp2019.SadController"
+                  moduleName = "Bitcamp2019"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zac/Desktop/Bitcamp2019XcodeTake1/Bitcamp2019/Bitcamp2019/Sad.swift"
+                  timestampString = "576914688.867697"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bitcamp2019.SadController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Bitcamp2019.SadController&gt;"
+                  moduleName = "Bitcamp2019"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zac/Desktop/Bitcamp2019XcodeTake1/Bitcamp2019/Bitcamp2019/Sad.swift"
+                  timestampString = "576914688.869785"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bitcamp2019.SadController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Bitcamp2019.SadController&gt;"
+                  moduleName = "Bitcamp2019"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zac/Desktop/Bitcamp2019XcodeTake1/Bitcamp2019/Bitcamp2019/Sad.swift"
+                  timestampString = "576914688.871985"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bitcamp2019.SadController.__deallocating_deinit"
+                  moduleName = "Bitcamp2019"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zac/Desktop/Bitcamp2019XcodeTake1/Bitcamp2019/Bitcamp2019/Sad.swift"
+                  timestampString = "576914688.874259"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
