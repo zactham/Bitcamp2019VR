@@ -65,6 +65,8 @@
 		11AD3419226312190008F0EB /* sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD3418226312190008F0EB /* sheep.png */; };
 		11AD341B226312420008F0EB /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD341A226312420008F0EB /* Sleep.swift */; };
 		11AD341D226315300008F0EB /* multimedia.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD341C226315300008F0EB /* multimedia.png */; };
+		11AD341F226336440008F0EB /* lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD341E226336440008F0EB /* lightbulb.png */; };
+		11AD3421226337910008F0EB /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD3420226337910008F0EB /* play-button.png */; };
 		11F4A989226192C00047AA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4A988226192C00047AA95 /* AppDelegate.swift */; };
 		11F4A98B226192C00047AA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4A98A226192C00047AA95 /* ViewController.swift */; };
 		11F4A98E226192C00047AA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F4A98C226192C00047AA95 /* Main.storyboard */; };
@@ -147,6 +149,8 @@
 		11AD3418226312190008F0EB /* sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sheep.png; path = ../../../../../Downloads/sheep.png; sourceTree = "<group>"; };
 		11AD341A226312420008F0EB /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
 		11AD341C226315300008F0EB /* multimedia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multimedia.png; path = ../../../../../Downloads/multimedia.png; sourceTree = "<group>"; };
+		11AD341E226336440008F0EB /* lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightbulb.png; path = ../../../../../Downloads/lightbulb.png; sourceTree = "<group>"; };
+		11AD3420226337910008F0EB /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play-button.png"; path = "../../../../../Downloads/play-button.png"; sourceTree = "<group>"; };
 		11F4A985226192C00047AA95 /* Bitcamp2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitcamp2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F4A988226192C00047AA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F4A98A226192C00047AA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 		112D187B22629441000DB9D0 /* Anxiety Icons */ = {
 			isa = PBXGroup;
 			children = (
+				11AD341E226336440008F0EB /* lightbulb.png */,
 				112D18912262AD2F000DB9D0 /* arrow.png */,
 				112D188F2262A0CF000DB9D0 /* music.png */,
 				112D188B22629E70000DB9D0 /* wave.png */,
@@ -283,6 +288,7 @@
 		11AD341022630D8B0008F0EB /* Sleep Icons */ = {
 			isa = PBXGroup;
 			children = (
+				11AD3420226337910008F0EB /* play-button.png */,
 				11AD341C226315300008F0EB /* multimedia.png */,
 				11AD3418226312190008F0EB /* sheep.png */,
 				11AD341122630DA20008F0EB /* pillow.png */,
@@ -513,6 +519,7 @@
 				11F4A9B02261A4850047AA95 /* Bloomer DEMO.otf in Resources */,
 				112D187022626FF1000DB9D0 /* weekly-calendar.png in Resources */,
 				11AD33FC2262E3D10008F0EB /* jack-in-the-box.png in Resources */,
+				11AD3421226337910008F0EB /* play-button.png in Resources */,
 				112D186F22626FF1000DB9D0 /* exercise.png in Resources */,
 				11F4A9B72261AC810047AA95 /* AnxietyScreen.jpeg in Resources */,
 				11F4A9A92261A26D0047AA95 /* happyMain.png in Resources */,
@@ -535,6 +542,7 @@
 				112D1872226270AE000DB9D0 /* fireplace.png in Resources */,
 				11F4A9AE2261A3CB0047AA95 /* CHERL___.TTF in Resources */,
 				112D188A22629E5B000DB9D0 /* ocean.mp3 in Resources */,
+				11AD341F226336440008F0EB /* lightbulb.png in Resources */,
 				11F4A9C42261C8C10047AA95 /* export.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -736,10 +744,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zac.Bitcamp2019;
+				PRODUCT_BUNDLE_IDENTIFIER = zac.sunrise.bitcamp2019;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -755,10 +763,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zac.Bitcamp2019;
+				PRODUCT_BUNDLE_IDENTIFIER = zac.sunrise.bitcamp2019;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

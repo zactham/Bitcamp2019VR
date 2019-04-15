@@ -206,7 +206,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click for soothing sounds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awa-w2-wBc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a soothing sound" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awa-w2-wBc">
                                 <rect key="frame" x="0.0" y="301" width="375" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
@@ -257,7 +257,7 @@
                                     <action selector="natureMusic:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="grH-Sa-Ejs"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the arrow for advice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRM-ei-IOy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get Advice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRM-ei-IOy">
                                 <rect key="frame" x="0.0" y="474" width="375" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
@@ -267,12 +267,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5SY-Rk-H05">
                                 <rect key="frame" x="162" y="526" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="arrow.png"/>
+                                <state key="normal" title="Button" image="lightbulb.png"/>
                                 <connections>
                                     <action selector="updateLabel:" destination="VRi-Mk-5n5" eventType="touchUpInside" id="XLq-fK-0E1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clear you head" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-eX-KB9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clear your head" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-eX-KB9">
                                 <rect key="frame" x="0.0" y="216" width="375" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="29"/>
@@ -432,8 +432,8 @@
                                     <action selector="quotesButton:" destination="8bv-Tf-KtY" eventType="touchUpInside" id="UpY-Ya-hp6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the quotes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKq-yR-5KJ">
-                                <rect key="frame" x="0.0" y="615" width="375" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Touch the quote" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKq-yR-5KJ">
+                                <rect key="frame" x="90" y="524" width="185" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BloomerDEMO-Regular" family="Bloomer DEMO" pointSize="28"/>
                                 <color key="textColor" red="0.20728108379999999" green="0.7529579837" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -628,7 +628,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbK-iq-sPl">
                                 <rect key="frame" x="166" y="617" width="42" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="multimedia.png"/>
+                                <state key="normal" title="Button" image="play-button.png"/>
                                 <connections>
                                     <action selector="start:" destination="2aq-yY-V2d" eventType="touchUpInside" id="IV2-Tf-c9J"/>
                                 </connections>
@@ -650,7 +650,6 @@
         <image name="angryBackground.jpeg" width="168" height="299"/>
         <image name="angryMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="anxiousMain.png" width="409.60000610351562" height="409.60000610351562"/>
-        <image name="arrow.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="camera.png" width="512" height="512"/>
         <image name="charity.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="customer-service.png" width="512" height="512"/>
@@ -662,9 +661,10 @@
         <image name="happyMain.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="jack-in-the-box.png" width="512" height="512"/>
         <image name="laugh.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="lightbulb.png" width="512" height="512"/>
         <image name="lotus.png" width="409.60000610351562" height="409.60000610351562"/>
-        <image name="multimedia.png" width="192" height="192"/>
         <image name="pillow.png" width="512" height="512"/>
+        <image name="play-button.png" width="204.80000305175781" height="204.80000305175781"/>
         <image name="quote1.jpg" width="830" height="467"/>
         <image name="sadBackground.jpg" width="981" height="1742.25"/>
         <image name="sadMain.png" width="409.60000610351562" height="409.60000610351562"/>
@@ -680,6 +680,6 @@
         <image name="youtube.png" width="409.60000610351562" height="409.60000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cPO-tU-sMr"/>
+        <segue reference="AbM-jK-fQ2"/>
     </inferredMetricsTieBreakers>
 </document>
